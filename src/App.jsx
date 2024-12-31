@@ -1,11 +1,14 @@
-
-import './App.css'
+import About from "./sections/About"
+import Hero from "./sections/Hero"
+import Navbar from "./sections/Navbar"
 
 function App() {
  
   return (
-    <div className='bg-lime-400'>
-      <h1 className='font-serif flex justify-end'>My First React App</h1>
+    <div className='max-w-7xl mx-auto'>
+      <Navbar/>
+      <Hero />
+      <About />
     </div>
   )
       
